@@ -1,0 +1,7 @@
+br\edu\lpoocardgame\lpoo\cardgame\model\Jogador.class
+br\edu\lpoocardgame\lpoo\cardgame\LPOOCardGame.class
+br\edu\lpoocardgame\lpoo\cardgame\control\InterfaceBD.class
+br\edu\lpoocardgame\lpoo\cardgame\model\Carta_.class
+br\edu\lpoocardgame\lpoo\cardgame\model\Categoria.class
+br\edu\lpoocardgame\lpoo\cardgame\model\Carta.class
+br\edu\lpoocardgame\lpoo\cardgame\control\PersistenciaJPA.class
