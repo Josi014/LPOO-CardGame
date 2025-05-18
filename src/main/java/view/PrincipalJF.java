@@ -4,10 +4,6 @@
  */
 package view;
 
-/**
- *
- * @author vanessalagomachado
- */
 public class PrincipalJF extends javax.swing.JFrame {
 
     /**

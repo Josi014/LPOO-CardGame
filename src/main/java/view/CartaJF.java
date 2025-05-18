@@ -11,10 +11,7 @@ import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 import model.Carta;
 
-/**
- *
- * @author vanessalagomachado
- */
+
 public class CartaJF extends javax.swing.JFrame {
 
     PersistenciaJPA jpa;
@@ -69,6 +66,11 @@ public class CartaJF extends javax.swing.JFrame {
         });
 
         btnEditar.setText("Editar");
+        btnEditar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEditarActionPerformed(evt);
+            }
+        });
 
         btnRemover.setText("Remover");
         btnRemover.addActionListener(new java.awt.event.ActionListener() {
@@ -151,6 +153,23 @@ public class CartaJF extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_btnRemoverActionPerformed
+
+    //Tarefa avaliativa de adicionar a ação ao botão de editar.
+    private void btnEditarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEditarActionPerformed
+          Carta cartaEdi = lstCartas.getSelectedValue();
+
+        if (cartaEdi != null) {
+
+            CadastroCartaJD telaCadastroCarta = new CadastroCartaJD(this, true);
+            telaCadastroCarta.setCarta(cartaEdi);
+
+            telaCadastroCarta.setVisible(true);
+
+                loadCards();
+        } else {
+            JOptionPane.showMessageDialog(rootPane, "Selecione uma carta para editar!!");
+        }
+    }//GEN-LAST:event_btnEditarActionPerformed
 
     /**
      * @param args the command line arguments

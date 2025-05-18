@@ -7,11 +7,9 @@ package view;
 import model.Carta;
 import model.Categoria;
 
-/**
- *
- * @author vanessalagomachado
- */
+
 public class CadastroCartaJD extends javax.swing.JDialog {
+
     private Carta carta;
 
     public Carta getCarta() {
@@ -20,19 +18,22 @@ public class CadastroCartaJD extends javax.swing.JDialog {
 
     public void setCarta(Carta carta) {
         this.carta = carta;
+        txtNome.setText(carta.getNome());
+        cmbCategoria.setSelectedItem(carta.getCategoria());
+        txtAtaque.setText(String.valueOf(carta.getAtaque()));
+        txtDefesa.setText(String.valueOf(carta.getDefesa()));
     }
 
     /**
      * Creates new form CadastroCartaJD
      */
-    public void loadCategorias(){
+    public void loadCategorias() {
         cmbCategoria.removeAllItems();
-        for(Categoria cat: Categoria.values()){
+        for (Categoria cat : Categoria.values()) {
             cmbCategoria.addItem(cat);
         }
     }
-    
-    
+
     public CadastroCartaJD(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
@@ -153,11 +154,11 @@ public class CadastroCartaJD extends javax.swing.JDialog {
         if (carta == null) {
             carta = new Carta();
             carta.setNome(txtNome.getText().trim());
-            carta.setCategoria((Categoria)cmbCategoria.getSelectedItem());
+            carta.setCategoria((Categoria) cmbCategoria.getSelectedItem());
             carta.setAtaque(Integer.parseInt(txtAtaque.getText()));
             carta.setDefesa(Integer.parseInt(txtDefesa.getText()));
         }
-        
+
         dispose();
     }//GEN-LAST:event_btnSalvarActionPerformed
 
@@ -217,4 +218,5 @@ public class CadastroCartaJD extends javax.swing.JDialog {
     private javax.swing.JTextField txtDefesa;
     private javax.swing.JTextField txtNome;
     // End of variables declaration//GEN-END:variables
+
 }

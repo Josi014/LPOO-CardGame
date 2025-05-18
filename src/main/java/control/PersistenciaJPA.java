@@ -81,7 +81,6 @@ public class PersistenciaJPA implements InterfaceBD {
         return entity;
     }
 
-    // Método para listar todas as Cartas
     public List<Carta> getCartas() {
         entity = getEntityManager();
         try {
