@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: control.TesteConexao
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.954 s <<< FAILURE! -- in control.TesteConexao
-control.TesteConexao.testeConexaoAberta -- Time elapsed: 1.831 s <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.053 s <<< FAILURE! -- in control.TesteConexao
+control.TesteConexao.testeConexaoAberta -- Time elapsed: 1.926 s <<< ERROR!
 javax.persistence.PersistenceException: [PersistenceUnit: pu-lpoo-card-game] Unable to build Hibernate SessionFactory
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1597)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)

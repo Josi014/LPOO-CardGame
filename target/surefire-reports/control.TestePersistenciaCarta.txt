@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: control.TestePersistenciaCarta
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.983 s <<< FAILURE! -- in control.TestePersistenciaCarta
-control.TestePersistenciaCarta.cadastroCartas -- Time elapsed: 1.866 s <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.510 s <<< FAILURE! -- in control.TestePersistenciaCarta
+control.TestePersistenciaCarta.cadastroCartas -- Time elapsed: 0.508 s <<< ERROR!
 javax.persistence.PersistenceException: [PersistenceUnit: pu-lpoo-card-game] Unable to build Hibernate SessionFactory
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1597)
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
@@ -51,7 +51,7 @@ Caused by: org.hibernate.MappingException: Could not determine type for: java.ut
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
 	... 33 more
 
-control.TestePersistenciaCarta.cadastroCartas -- Time elapsed: 1.869 s <<< ERROR!
+control.TestePersistenciaCarta.cadastroCartas -- Time elapsed: 0.509 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "control.PersistenciaJPA.fecharConexao()" because "this.jpa" is null
 	at control.TestePersistenciaCarta.tearDown(TestePersistenciaCarta.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
