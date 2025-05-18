@@ -2,24 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
  */
-package control;
 
+import control.PersistenciaJPA;
+import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import model.Carta;
 import model.Categoria;
-import java.util.ArrayList;
 import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author Usuário
- */
-public class TestePersistenciaCarta {
 
+public class TestePersistenciaCarta {
     PersistenciaJPA jpa;
     
     public TestePersistenciaCarta() {
@@ -58,5 +54,6 @@ public class TestePersistenciaCarta {
         }
         
     }
+    
     
 }

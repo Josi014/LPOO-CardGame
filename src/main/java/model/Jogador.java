@@ -12,6 +12,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 /**
@@ -31,6 +33,8 @@ public class Jogador implements Serializable {
     @Column(name = "jog_level")
     private int level;
 
+    @OneToMany
+    @JoinColumn(name = "jogador_id")
     private List<Carta> baralho;
 
     public Jogador() {

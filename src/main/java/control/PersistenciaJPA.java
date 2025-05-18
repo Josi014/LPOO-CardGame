@@ -1,17 +1,14 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package control;
-import model.Carta;
-import javax.persistence.*;
+
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-/**
- *
- * @author Usuário
- */
+import java.util.logging.*;
+import javax.persistence.*;
+import model.Carta;
 public class PersistenciaJPA implements InterfaceBD {
 
     private EntityManager entity;
@@ -84,7 +81,7 @@ public class PersistenciaJPA implements InterfaceBD {
         return entity;
     }
 
-    // 🔄 Método para listar todas as Cartas
+    // Método para listar todas as Cartas
     public List<Carta> getCartas() {
         entity = getEntityManager();
         try {
