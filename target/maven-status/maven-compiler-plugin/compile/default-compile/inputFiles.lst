@@ -1,6 +1,9 @@
-C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\br\edu\lpoocardgame\lpoo\cardgame\control\InterfaceBD.java
-C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\br\edu\lpoocardgame\lpoo\cardgame\control\PersistenciaJPA.java
 C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\br\edu\lpoocardgame\lpoo\cardgame\LPOOCardGame.java
-C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\br\edu\lpoocardgame\lpoo\cardgame\model\Carta.java
-C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\br\edu\lpoocardgame\lpoo\cardgame\model\Categoria.java
-C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\br\edu\lpoocardgame\lpoo\cardgame\model\Jogador.java
+C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\control\InterfaceBD.java
+C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\control\PersistenciaJPA.java
+C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\model\Carta.java
+C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\model\Categoria.java
+C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\model\Jogador.java
+C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\view\CadastroCartaJD.java
+C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\view\CartaJF.java
+C:\Users\Usuário\OneDrive\Documentos\NetBeansProjects\LPOO-CardGame\src\main\java\view\PrincipalJF.java

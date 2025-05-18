@@ -2,8 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package br.edu.lpoocardgame.lpoo.cardgame.control;
-import br.edu.lpoocardgame.lpoo.cardgame.model.Carta;
+package control;
+import model.Carta;
 import javax.persistence.*;
 import java.util.List;
 import java.util.logging.Level;

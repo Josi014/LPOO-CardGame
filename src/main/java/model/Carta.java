@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package br.edu.lpoocardgame.lpoo.cardgame.model;
+package model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -137,4 +137,8 @@ public class Carta {
         this.raridade = raridade;
     }
 
+    @Override
+    public String toString() {
+        return nome + " (" + categoria + "): A: " + ataque + " - D: " + defesa;
+    }
 }

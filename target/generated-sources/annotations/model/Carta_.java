@@ -1,11 +1,11 @@
-package br.edu.lpoocardgame.lpoo.cardgame.model;
+package model;
 
-import br.edu.lpoocardgame.lpoo.cardgame.model.Categoria;
 import javax.annotation.processing.Generated;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
+import model.Categoria;
 
-@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2025-05-11T16:44:03", comments="EclipseLink-2.7.12.v20230209-rNA")
+@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2025-05-18T13:37:15", comments="EclipseLink-2.7.12.v20230209-rNA")
 @StaticMetamodel(Carta.class)
 public class Carta_ { 
 
